@@ -6,15 +6,12 @@
   <meta charset="utf-8">
   <meta http-equiv=”refresh” content=”5">
 </head>
-
 <body>
 	  <script>
-	var game = prompt('            Game Name?\n \n(Full Game Name | Global)\n ','Global');
-	var stat = prompt('                                           Stat Name?\n \n(Wins | Losses | Kills | Deaths | ExpEarned | GemsEarned)\n ','Wins');
-	var type = prompt('             Board Type?\n \n(All | Monthly | Weekly | Daily)\n ','All');
-
-	var res = prompt('Your Leaderboard Link:\n \n   Right Click > Copy','https://www.mineplex.com/assets/www-mp/webtest/testy.php?game=' + game + '&type=' + stat + '&boardType=' + type)
-	location.reload();  
+	var game = prompt('            Game Name?\n \n(Full Game Name | Global)\n ');
+	var stat = prompt('                                           Stat Name?\n \n(Wins | Losses | Kills | Deaths | ExpEarned | GemsEarned)\n ');
+	var type = prompt('             Board Type?\n \n(Total | Monthly | Weekly | Daily)\n ','Total');
+	var res = prompt('Your Leaderboard Link:\n \n   Right Click > Copy','https://www.mineplex.com/assets/www-mp/webtest/testy.php?game=' + game + '&type=' + stat + '&boardType=' + type) 
 </script>
 </body>
 </html>
