@@ -9,8 +9,8 @@
 
 <body>
 	  <script>
-	var game = prompt('            Game Name?\n \n(Full Game Name | Global)\n ');
-	var stat = prompt('                                           Stat Name?\n \n(Wins | Losses | Kills | Deaths | ExpEarned | GemsEarned)\n ');
+	var game = prompt('            Game Name?\n \n(Full Game Name | Global)\n ',Global);
+	var stat = prompt('                                           Stat Name?\n \n(Wins | Losses | Kills | Deaths | ExpEarned | GemsEarned)\n ',Wins);
 	var type = prompt('             Board Type?\n \n(All | Monthly | Weekly | Daily)\n ','All');
 
 	var res = prompt('Your Leaderboard Link:\n \n   Right Click > Copy','https://www.mineplex.com/assets/www-mp/webtest/testy.php?game=' + game + '&type=' + stat + '&boardType=' + type)
